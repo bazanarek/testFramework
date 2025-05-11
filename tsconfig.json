@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "commonjs",
+      "strict": true,
+      "types": ["cypress", "@badeball/cypress-cucumber-preprocessor"],
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["../cypress/**/*.ts", "cypress/**/**/*.ts"]
+  }
+  
